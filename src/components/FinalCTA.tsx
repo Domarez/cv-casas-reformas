@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const FinalCTA = () => {
   return (
-    <section className="py-24 bg-charcoal text-white relative overflow-hidden">
+    <section id="final-cta" className="py-24 bg-charcoal text-white relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-charcoal to-charcoal/90"></div>
       
       <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-8 text-center">

@@ -6,21 +6,30 @@ const FinalCTA = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-charcoal to-charcoal/90"></div>
       
       <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-8 text-center">
-        <h2 className="text-4xl lg:text-6xl font-bold mb-8">
+        <h2 
+          className="text-4xl lg:text-6xl font-bold mb-8"
+          data-aos="fade-up"
+        >
           ¿Listo para transformar tu casa?
         </h2>
         
-        <p className="text-xl lg:text-2xl text-white/90 mb-12 leading-relaxed">
+        <p 
+          className="text-xl lg:text-2xl text-white/90 mb-12 leading-relaxed"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           Hacelo fácil, rápido y con respaldo profesional.
         </p>
         
-        <Button 
-          variant="cta" 
-          size="xl"
-          className="text-lg shadow-accent hover:scale-105"
-        >
-          Solicitá tu cotización ahora
-        </Button>
+        <div data-aos="zoom-in" data-aos-delay="400">
+          <Button 
+            variant="cta" 
+            size="xl"
+            className="text-lg shadow-accent hover:scale-105"
+          >
+            Solicitá tu cotización ahora
+          </Button>
+        </div>
       </div>
       
       {/* Decorative elements */}

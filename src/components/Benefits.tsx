@@ -24,7 +24,7 @@ const Benefits = () => {
   return (
     <section id="benefits" className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Beneficios destacados
           </h2>
@@ -32,7 +32,12 @@ const Benefits = () => {
         
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           {benefits.map((benefit, index) => (
-            <Card key={index} className="p-8 text-center shadow-soft hover:shadow-elegant transition-all duration-300 border-0 bg-card/50 backdrop-blur">
+            <Card 
+              key={index} 
+              className="p-8 text-center shadow-soft hover:shadow-elegant transition-all duration-300 border-0 bg-card/50 backdrop-blur"
+              data-aos="fade-up"
+              data-aos-delay={index * 200}
+            >
               <div className="w-16 h-16 bg-gradient-accent rounded-full flex items-center justify-center mx-auto mb-6">
                 <benefit.icon className="w-8 h-8 text-accent-foreground" />
               </div>
@@ -46,7 +51,7 @@ const Benefits = () => {
           ))}
         </div>
         
-        <div className="text-center">
+        <div className="text-center" data-aos="fade-up" data-aos-delay="600">
           <Button variant="ctaOutline" size="xl">
             Quiero presupuestar
           </Button>

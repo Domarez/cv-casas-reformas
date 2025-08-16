@@ -24,13 +24,13 @@ const FAQ = () => {
   return (
     <section id="faq" className="py-24 bg-background">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Preguntas frecuentes
           </h2>
         </div>
         
-        <Accordion type="single" collapsible className="w-full">
+        <Accordion type="single" collapsible className="w-full" data-aos="fade-up" data-aos-delay="200">
           {faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`} className="border-b border-border/50">
               <AccordionTrigger className="text-left text-xl font-semibold text-foreground hover:text-accent transition-colors">

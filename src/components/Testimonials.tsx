@@ -29,7 +29,7 @@ const Testimonials = () => {
   return (
     <section className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Ellos ya confiaron en nosotros
           </h2>
@@ -37,7 +37,12 @@ const Testimonials = () => {
         
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="p-8 shadow-elegant border-0 bg-card/80 backdrop-blur">
+            <Card 
+              key={index} 
+              className="p-8 shadow-elegant border-0 bg-card/80 backdrop-blur"
+              data-aos="fade-up"
+              data-aos-delay={index * 300}
+            >
               <div className="flex items-center mb-6">
                 <img 
                   src={testimonial.image} 
@@ -61,7 +66,7 @@ const Testimonials = () => {
           ))}
         </div>
         
-        <div className="text-center">
+        <div className="text-center" data-aos="fade-up" data-aos-delay="600">
           <Button variant="cta" size="xl">
             Quiero cotizar
           </Button>

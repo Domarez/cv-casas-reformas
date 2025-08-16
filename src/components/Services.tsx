@@ -31,7 +31,7 @@ const Services = () => {
   return (
     <section id="services" className="py-24 bg-soft-beige/30">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16" data-aos="fade-up">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Elegí el servicio que tu hogar necesita
           </h2>
@@ -43,6 +43,8 @@ const Services = () => {
               key={index} 
               className={`p-8 shadow-soft hover:shadow-elegant transition-all duration-300 border-0 
                 ${service.featured ? 'bg-gradient-accent text-accent-foreground lg:scale-105' : 'bg-card'}`}
+              data-aos={service.featured ? "zoom-in" : "fade-up"}
+              data-aos-delay={index * 200}
             >
               {service.image && (
                 <div className="mb-6 rounded-lg overflow-hidden">

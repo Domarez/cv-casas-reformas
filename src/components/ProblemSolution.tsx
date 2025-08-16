@@ -8,7 +8,10 @@ const ProblemSolution = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           
           {/* Problem */}
-          <Card className="p-12 shadow-soft border-0 bg-card/80 backdrop-blur">
+          <Card 
+            className="p-12 shadow-soft border-0 bg-card/80 backdrop-blur"
+            data-aos="fade-right"
+          >
             <h3 className="text-3xl font-bold text-foreground mb-8">
               ¿Por qué una reforma puede ser un dolor de cabeza?
             </h3>
@@ -23,7 +26,10 @@ const ProblemSolution = () => {
           </Card>
           
           {/* Solution */}
-          <Card className="p-12 shadow-elegant border-0 bg-accent/5 border-l-4 border-l-accent">
+          <Card 
+            className="p-12 shadow-elegant border-0 bg-accent/5 border-l-4 border-l-accent"
+            data-aos="fade-left"
+          >
             <h3 className="text-3xl font-bold text-foreground mb-8">
               ¿Cómo contribuye Construir Valor?
             </h3>

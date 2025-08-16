@@ -15,24 +15,34 @@ const Hero = () => {
       
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 text-left">
         <div className="max-w-3xl">
-          <h1 className="text-5xl lg:text-7xl font-bold text-white mb-8 leading-tight">
+          <h1 
+            className="text-5xl lg:text-7xl font-bold text-white mb-8 leading-tight"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             Convertí tu hogar en el{" "}
             <span className="text-accent">espacio</span>{" "}
             que siempre soñaste
           </h1>
           
-          <h2 className="text-xl lg:text-2xl text-white/90 mb-12 leading-relaxed max-w-2xl">
+          <h2 
+            className="text-xl lg:text-2xl text-white/90 mb-12 leading-relaxed max-w-2xl"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             Reformas integrales, baños y cocinas con diseño, eficiencia y cumplimiento total. 
             Ejecutamos tu obra sin demoras, con capital propio y sin pedir anticipos.
           </h2>
           
-          <Button 
-            variant="cta" 
-            size="xl"
-            className="text-lg shadow-accent"
-          >
-            Solicitá tu cotización sin compromiso
-          </Button>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <Button 
+              variant="cta" 
+              size="xl"
+              className="text-lg shadow-accent"
+            >
+              Solicitá tu cotización sin compromiso
+            </Button>
+          </div>
         </div>
       </div>
       

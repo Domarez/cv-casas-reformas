@@ -46,13 +46,18 @@ const Header = () => {
             >
               Preguntas
             </button>
-            <Button 
-              variant="cta" 
-              size="sm"
-              onClick={() => scrollToSection('final-cta')}
+            <a 
+              href="https://forms.clickup.com/90131266734/f/2ky3vz5e-6513/FC1JLI4W0L2ZRZQF51"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Solicitar Cotización
-            </Button>
+              <Button 
+                variant="cta" 
+                size="sm"
+              >
+                Solicitar Cotización
+              </Button>
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -91,14 +96,19 @@ const Header = () => {
               >
                 Preguntas
               </button>
-              <Button 
-                variant="cta" 
-                size="sm"
-                onClick={() => scrollToSection('final-cta')}
-                className="self-start"
+              <a 
+                href="https://forms.clickup.com/90131266734/f/2ky3vz5e-6513/FC1JLI4W0L2ZRZQF51"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Solicitar Cotización
-              </Button>
+                <Button 
+                  variant="cta" 
+                  size="sm"
+                  className="self-start"
+                >
+                  Solicitar Cotización
+                </Button>
+              </a>
             </div>
           </div>
         )}

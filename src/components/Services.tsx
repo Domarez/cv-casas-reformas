@@ -64,13 +64,19 @@ const Services = () => {
                 {service.description}
               </p>
               
-              <Button 
-                variant={service.featured ? "default" : "ctaOutline"} 
-                size="lg"
-                className={service.featured ? "bg-accent-foreground text-accent hover:bg-accent-foreground/90" : ""}
+              <a 
+                href="https://forms.clickup.com/90131266734/f/2ky3vz5e-6513/FC1JLI4W0L2ZRZQF51"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                {service.cta}
-              </Button>
+                <Button 
+                  variant={service.featured ? "default" : "ctaOutline"} 
+                  size="lg"
+                  className={service.featured ? "bg-accent-foreground text-accent hover:bg-accent-foreground/90" : ""}
+                >
+                  {service.cta}
+                </Button>
+              </a>
             </Card>
           ))}
         </div>

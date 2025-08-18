@@ -35,13 +35,19 @@ const Hero = () => {
           </h2>
           
           <div data-aos="fade-up" data-aos-delay="600">
-            <Button 
-              variant="cta" 
-              size="xl"
-              className="text-lg shadow-accent"
+            <a 
+              href="https://forms.clickup.com/90131266734/f/2ky3vz5e-6513/FC1JLI4W0L2ZRZQF51"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Solicitá tu cotización sin compromiso
-            </Button>
+              <Button 
+                variant="cta" 
+                size="xl"
+                className="text-lg shadow-accent"
+              >
+                Solicitá tu cotización sin compromiso
+              </Button>
+            </a>
           </div>
         </div>
       </div>

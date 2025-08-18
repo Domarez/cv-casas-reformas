@@ -57,9 +57,15 @@ const WhyChooseUs = () => {
         </div>
         
         <div className="text-center" data-aos="fade-up" data-aos-delay="600">
-          <Button variant="cta" size="xl" className="shadow-accent">
-            Cotizar ahora
-          </Button>
+          <a 
+            href="https://forms.clickup.com/90131266734/f/2ky3vz5e-6513/FC1JLI4W0L2ZRZQF51"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="cta" size="xl" className="shadow-accent">
+              Cotizar ahora
+            </Button>
+          </a>
         </div>
       </div>
     </section>

@@ -40,9 +40,15 @@ const ProblemSolution = () => {
             <p className="text-xl font-semibold text-accent mb-8">
               Cumplimos en tiempo, forma y calidad.
             </p>
-            <Button variant="cta" size="lg">
-              Contactar ahora
-            </Button>
+            <a 
+              href="https://forms.clickup.com/90131266734/f/2ky3vz5e-6513/FC1JLI4W0L2ZRZQF51"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="cta" size="lg">
+                Contactar ahora
+              </Button>
+            </a>
           </Card>
           
         </div>
